@@ -8,11 +8,11 @@ const options = getCommandOptions()
 console.warn(options)
 // 移动到node-modules
 if (options.in)
-  copyFile(path.resolve(cwd(), '.cache'), path.resolve(cwd(), 'node_modules/.cache'))
+  copyFile(path.resolve(cwd(), '.cache/**'), path.resolve(cwd(), 'node_modules/.cache'))
 
 // copy缓存到项目根目录中
 if (options.out)
-  copyFile(path.resolve(cwd(), 'node_modules/.cache'), path.resolve(cwd(), '.cache'))
+  copyFile(path.resolve(cwd(), 'node_modules/.cache/**'), path.resolve(cwd(), '.cache'))
 
 function getCommandOptions() {
   // 初始化命令行帮助信息
