@@ -1,5 +1,5 @@
 {
-  "name": "turbo-cache-transport",
+  "name": "@sudongyuer/turbo-cache-transport",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@7.2.1",
@@ -10,12 +10,12 @@
   },
   "license": "MIT",
   "funding": "https://github.com/sponsors/sudongyu",
-  "homepage": "https://github.com/sudongyu/turbo-cache-transport#readme",
+  "homepage": "https://github.com/sudongyuer/turbo-cache-transport#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sudongyu/turbo-cache-transport.git"
+    "url": "git+https://github.com/sudongyuer/turbo-cache-transport.git"
   },
-  "bugs": "https://github.com/sudongyu/turbo-cache-transport/issues",
+  "bugs": "https://github.com/sudongyuer/turbo-cache-transport/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
