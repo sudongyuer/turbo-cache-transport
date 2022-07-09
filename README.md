@@ -7,6 +7,17 @@
 
 ## UseAge
 
+- before ci move the turbo cache out
+
+```shell
+pnpm tcache --out
+```
+
+- in ci move the turbo cache in node_modules
+
+```shell
+pnpm tcache --in
+```
 
 ## License
 
